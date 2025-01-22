@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'DependencyContainer' in project 'DependencyContainer'
+➜ Explicit dependency on target 'DependencyContainer' in project 'DependencyContainer'
+Target 'DependencyContainer' in project 'DependencyContainer' (no dependencies)

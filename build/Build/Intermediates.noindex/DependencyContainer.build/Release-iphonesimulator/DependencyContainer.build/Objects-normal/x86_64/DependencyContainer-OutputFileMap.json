@@ -1,0 +1,30 @@
+{
+  "" : {
+    "const-values" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer-master.swiftconstvalues",
+    "dependencies" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer-master.d",
+    "diagnostics" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer-master.dia",
+    "emit-module-dependencies" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer-master-emit-module.dia",
+    "swift-dependencies" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer-master.swiftdeps"
+  },
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainer.swift" : {
+    "index-unit-output-path" : "/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer.o",
+    "llvm-bc" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer.bc",
+    "object" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainer.o"
+  },
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainerRegistrationType.swift" : {
+    "index-unit-output-path" : "/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerRegistrationType.o",
+    "llvm-bc" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerRegistrationType.bc",
+    "object" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerRegistrationType.o"
+  },
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainerResolvingType.swift" : {
+    "index-unit-output-path" : "/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerResolvingType.o",
+    "llvm-bc" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerResolvingType.bc",
+    "object" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerResolvingType.o"
+  },
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainerSafe.swift" : {
+    "index-unit-output-path" : "/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerSafe.o",
+    "llvm-bc" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerSafe.bc",
+    "object" : "/Users/eslam/Desktop/framework/DependencyContainer/build/Build/Intermediates.noindex/DependencyContainer.build/Release-iphonesimulator/DependencyContainer.build/Objects-normal/x86_64/DependencyContainerSafe.o"
+  }
+}

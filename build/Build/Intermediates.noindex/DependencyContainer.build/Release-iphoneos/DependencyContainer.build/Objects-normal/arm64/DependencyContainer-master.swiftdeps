@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "906c6a86e9dfb080da7ef164decd411513e3852f942d7da5b4a019c1420bb177"
+build_start_time: [1737458584, 376693000]
+build_end_time: [1737458585, 826712000]
+inputs:
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainer.swift": [1737296047, 674766541]
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainerRegistrationType.swift": [1736948869, 668059468]
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainerResolvingType.swift": [1736947490, 658833385]
+  "/Users/eslam/Desktop/framework/DependencyContainer/Sources/DependencyContainer/DependencyContainerSafe.swift": [1737365859, 177550316]

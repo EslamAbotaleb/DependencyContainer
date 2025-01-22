@@ -1,0 +1,35 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name DependencyContainer -package-name dependencycontainer
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum DependencyContainerRegistrationType : Swift.Sendable {
+  case singleInstance(any Swift.Sendable)
+  case closureBased(@Sendable () async -> Any)
+}
+public enum DependencyContainerResolvingType : Swift.Sendable {
+  case singleInstance
+  case closureBased
+  public static func == (a: DependencyContainer.DependencyContainerResolvingType, b: DependencyContainer.DependencyContainerResolvingType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias DCSafe = DependencyContainer.DependencyContainerSafe
+@_hasMissingDesignatedInitializers public actor DependencyContainerSafe {
+  public static let shared: DependencyContainer.DependencyContainerSafe
+  public func register(type: DependencyContainer.DependencyContainerRegistrationType, for interface: any Any.Type)
+  public func resolve<Value>(type: DependencyContainer.DependencyContainerResolvingType, for interface: Value.Type) async -> Value
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+extension DependencyContainer.DependencyContainerResolvingType : Swift.Equatable {}
+extension DependencyContainer.DependencyContainerResolvingType : Swift.Hashable {}

@@ -1,0 +1,668 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DependencyContainer",
+    "printedName": "DependencyContainer",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DependencyContainer"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DependencyContainer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DependencyContainerRegistrationType",
+        "printedName": "DependencyContainerRegistrationType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "singleInstance",
+            "printedName": "singleInstance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DependencyContainer.DependencyContainerRegistrationType.Type) -> (any Swift.Sendable) -> DependencyContainer.DependencyContainerRegistrationType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Sendable) -> DependencyContainer.DependencyContainerRegistrationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependencyContainerRegistrationType",
+                        "printedName": "DependencyContainer.DependencyContainerRegistrationType",
+                        "usr": "s:19DependencyContainer0aB16RegistrationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "any Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DependencyContainer.DependencyContainerRegistrationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependencyContainerRegistrationType",
+                        "printedName": "DependencyContainer.DependencyContainerRegistrationType",
+                        "usr": "s:19DependencyContainer0aB16RegistrationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19DependencyContainer0aB16RegistrationTypeO14singleInstanceyACs8Sendable_pcACmF",
+            "mangledName": "$s19DependencyContainer0aB16RegistrationTypeO14singleInstanceyACs8Sendable_pcACmF",
+            "moduleName": "DependencyContainer",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closureBased",
+            "printedName": "closureBased",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DependencyContainer.DependencyContainerRegistrationType.Type) -> (@escaping () async -> Any) -> DependencyContainer.DependencyContainerRegistrationType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping () async -> Any) -> DependencyContainer.DependencyContainerRegistrationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependencyContainerRegistrationType",
+                        "printedName": "DependencyContainer.DependencyContainerRegistrationType",
+                        "usr": "s:19DependencyContainer0aB16RegistrationTypeO"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() async -> Any",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DependencyContainer.DependencyContainerRegistrationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependencyContainerRegistrationType",
+                        "printedName": "DependencyContainer.DependencyContainerRegistrationType",
+                        "usr": "s:19DependencyContainer0aB16RegistrationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19DependencyContainer0aB16RegistrationTypeO12closureBasedyACypyYaYbccACmF",
+            "mangledName": "$s19DependencyContainer0aB16RegistrationTypeO12closureBasedyACypyYaYbccACmF",
+            "moduleName": "DependencyContainer"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19DependencyContainer0aB16RegistrationTypeO",
+        "mangledName": "$s19DependencyContainer0aB16RegistrationTypeO",
+        "moduleName": "DependencyContainer",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DependencyContainer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DependencyContainerResolvingType",
+        "printedName": "DependencyContainerResolvingType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "singleInstance",
+            "printedName": "singleInstance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DependencyContainer.DependencyContainerResolvingType.Type) -> DependencyContainer.DependencyContainerResolvingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependencyContainerResolvingType",
+                    "printedName": "DependencyContainer.DependencyContainerResolvingType",
+                    "usr": "s:19DependencyContainer0aB13ResolvingTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DependencyContainer.DependencyContainerResolvingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependencyContainerResolvingType",
+                        "printedName": "DependencyContainer.DependencyContainerResolvingType",
+                        "usr": "s:19DependencyContainer0aB13ResolvingTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19DependencyContainer0aB13ResolvingTypeO14singleInstanceyA2CmF",
+            "mangledName": "$s19DependencyContainer0aB13ResolvingTypeO14singleInstanceyA2CmF",
+            "moduleName": "DependencyContainer"
+          },
+          {
+            "kind": "Var",
+            "name": "closureBased",
+            "printedName": "closureBased",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DependencyContainer.DependencyContainerResolvingType.Type) -> DependencyContainer.DependencyContainerResolvingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependencyContainerResolvingType",
+                    "printedName": "DependencyContainer.DependencyContainerResolvingType",
+                    "usr": "s:19DependencyContainer0aB13ResolvingTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DependencyContainer.DependencyContainerResolvingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependencyContainerResolvingType",
+                        "printedName": "DependencyContainer.DependencyContainerResolvingType",
+                        "usr": "s:19DependencyContainer0aB13ResolvingTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19DependencyContainer0aB13ResolvingTypeO12closureBasedyA2CmF",
+            "mangledName": "$s19DependencyContainer0aB13ResolvingTypeO12closureBasedyA2CmF",
+            "moduleName": "DependencyContainer"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependencyContainerResolvingType",
+                "printedName": "DependencyContainer.DependencyContainerResolvingType",
+                "usr": "s:19DependencyContainer0aB13ResolvingTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependencyContainerResolvingType",
+                "printedName": "DependencyContainer.DependencyContainerResolvingType",
+                "usr": "s:19DependencyContainer0aB13ResolvingTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19DependencyContainer0aB13ResolvingTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19DependencyContainer0aB13ResolvingTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "DependencyContainer",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19DependencyContainer0aB13ResolvingTypeO9hashValueSivp",
+            "mangledName": "$s19DependencyContainer0aB13ResolvingTypeO9hashValueSivp",
+            "moduleName": "DependencyContainer",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19DependencyContainer0aB13ResolvingTypeO9hashValueSivg",
+                "mangledName": "$s19DependencyContainer0aB13ResolvingTypeO9hashValueSivg",
+                "moduleName": "DependencyContainer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19DependencyContainer0aB13ResolvingTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19DependencyContainer0aB13ResolvingTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "DependencyContainer",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19DependencyContainer0aB13ResolvingTypeO",
+        "mangledName": "$s19DependencyContainer0aB13ResolvingTypeO",
+        "moduleName": "DependencyContainer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DependencyContainer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DependencyContainerSafe",
+        "printedName": "DependencyContainerSafe",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependencyContainerSafe",
+                "printedName": "DependencyContainer.DependencyContainerSafe",
+                "usr": "s:19DependencyContainer0aB4SafeC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19DependencyContainer0aB4SafeC6sharedACvpZ",
+            "mangledName": "$s19DependencyContainer0aB4SafeC6sharedACvpZ",
+            "moduleName": "DependencyContainer",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependencyContainerSafe",
+                    "printedName": "DependencyContainer.DependencyContainerSafe",
+                    "usr": "s:19DependencyContainer0aB4SafeC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19DependencyContainer0aB4SafeC6sharedACvgZ",
+                "mangledName": "$s19DependencyContainer0aB4SafeC6sharedACvgZ",
+                "moduleName": "DependencyContainer",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(type:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependencyContainerRegistrationType",
+                "printedName": "DependencyContainer.DependencyContainerRegistrationType",
+                "usr": "s:19DependencyContainer0aB16RegistrationTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any Any.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19DependencyContainer0aB4SafeC8register4type3foryAA0aB16RegistrationTypeO_ypXptF",
+            "mangledName": "$s19DependencyContainer0aB4SafeC8register4type3foryAA0aB16RegistrationTypeO_ypXptF",
+            "moduleName": "DependencyContainer",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(type:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependencyContainerResolvingType",
+                "printedName": "DependencyContainer.DependencyContainerResolvingType",
+                "usr": "s:19DependencyContainer0aB13ResolvingTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19DependencyContainer0aB4SafeC7resolve4type3forxAA0aB13ResolvingTypeO_xmtYalF",
+            "mangledName": "$s19DependencyContainer0aB4SafeC7resolve4type3forxAA0aB13ResolvingTypeO_xmtYalF",
+            "moduleName": "DependencyContainer",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19DependencyContainer0aB4SafeC15unownedExecutorScevp",
+            "mangledName": "$s19DependencyContainer0aB4SafeC15unownedExecutorScevp",
+            "moduleName": "DependencyContainer",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19DependencyContainer0aB4SafeC15unownedExecutorScevg",
+                "mangledName": "$s19DependencyContainer0aB4SafeC15unownedExecutorScevg",
+                "moduleName": "DependencyContainer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19DependencyContainer0aB4SafeC",
+        "mangledName": "$s19DependencyContainer0aB4SafeC",
+        "moduleName": "DependencyContainer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eslam\/Desktop\/framework\/DependencyContainer\/Sources\/DependencyContainer\/DependencyContainerSafe.swift",
+      "kind": "Dictionary",
+      "offset": 416,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/eslam\/Desktop\/framework\/DependencyContainer\/Sources\/DependencyContainer\/DependencyContainerSafe.swift",
+      "kind": "Dictionary",
+      "offset": 694,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

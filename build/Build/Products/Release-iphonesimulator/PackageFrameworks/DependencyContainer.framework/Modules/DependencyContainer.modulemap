@@ -1,0 +1,4 @@
+module DependencyContainer {
+header "DependencyContainer-Swift.h"
+export *
+}
